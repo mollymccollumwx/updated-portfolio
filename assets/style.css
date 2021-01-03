@@ -1,53 +1,21 @@
-/* background image and fonts */
+
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    background:url(./images/computer-closeup.jpg) no-repeat center center fixed;
-    /* background-image: url("./images/background.jpg"); */
-    background-size: cover;  
-    
+    font-family: 'Source Sans Pro', sans-serif;   
 }
 
-/* nav bar */
- /* .bg-custom {
-    background: none;
+.about-background {
+    background-color: grey;
+}
+.skills-background {
+    background-color: lightgrey;
+}
+ 
 
- } */
-.nav-items {
-    font-size: larger;
-}
-.nav a:hover {
-    text-decoration: underline;
-    text-decoration: underline;
-    text-decoration-color: hotpink;
-    text-decoration-style: double;
-    text-decoration-thickness: 3px;
-}
-
-/* landing page text */
-.title {
-    color: white;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-shadow: 2px 2px 4px #000000;
-}
-
-/* all font awesome icons are white */
-.icon {
-    color: white;
-}
-
-/* container for landing page */
-.main, .landing-main{
-    margin-top: 150px;
-   
-}
-.about {
-    color: white;
-}
 
 /* about page */
 #profile-pic {
-    height: auto;
-    width: 200px;
+    height: 250px;
+    width: 250px;
   }
 
+  
