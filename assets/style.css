@@ -1,0 +1,25 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background:url(./images/colorful\ computer.jpg) no-repeat center center fixed;
+    /* background-image: url("./images/background.jpg"); */
+    
+  
+    background-size: cover;
+    
+}
+
+.bg-custom {
+    background: none;
+}
+.nav-link {
+    color: white !important;
+}
+
+.nav-items {
+    font-size: larger;
+}
+
+.title {
+    color: white;
+    font-weight: bold;
+}
