@@ -22,70 +22,134 @@
     />
     <!-- Font Awesome -->
     <link
-    rel="stylesheet"
-    href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
-    crossorigin="anonymous"
-  />
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
     <!-- Local CSS Stylesheet -->
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
 
   <body>
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand ms-3" href="#"><i class="fab fa-github fa-md"></i></a>
+        <a class="navbar-brand" href="#"><i class="fab fa-linkedin-in fa-md"></i></a>
+        <a class="navbar-brand" href="#"><i class="fab fa-twitter fa-md"></i></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="./index.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./about.html">About</a>
-              </li>
+              <a class="nav-link active" href="./portfolio.html">Portfolio</a>
+            </li>
             <li class="nav-item">
-              <a class="nav-link" href="./portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./resume.html">Resume</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./contact.html">Contact</a>
-                  </li>
-
-            
+              <a class="nav-link" href="./resume.html">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
           </ul>
-          
         </div>
       </div>
     </nav>
-    <!-- main content for landing page -->
-    <main class="container text-center landing-main">
-      <div class="row justify-content-center">
-        
-          <div class="col-4">
-            <h1 class="title">MOLLY McCOLLUM </h1>
-            <h3 class="title">FRONT-END DEVELOPER</h3>
-            <a type ="button" class="icon m-1"><i class="fab fa-github-square fa-3x"></i></a>
-            <a type ="button" class="icon m-1"><i class="fab fa-linkedin fa-3x"></i></a>
-            <a type ="button" class="icon m-1"><i class="fab fa-twitter-square fa-3x"></i></a>
-           </div>
-           <!-- button -->
-           <div class="mt-2">
-           <button type="button" class="btn btn-light">Hire Me</button>
-           </div>
+
+    <main class="container-fluid">
+      <!-- about -->
+      <div class="row about-background justify-content-center">
+        <div class="col-10 my-5 text-center"> 
+          <h3>Porfolio</h3>
+          <h1>I'm <b>Molly McCollum</b>.</h1>
+          <h6>Front-End Developer</h6>
+          <p> I'm a front-end developer with a leveraging both a strong science and communications background. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora necessitatibus exercitationem, aut harum, repellendus eligendi, dolores quae itaque rem repudiandae illum eaque officiis modi consectetur voluptate esse! Cum, unde.  </p>
+          <button>Contact</button>
+          <button>View Resume</button>
         </div>
-        
-          
-        
       </div>
+
+      <!-- skill cards -->
+      <div class="row mt-2 justify-content-md-center">
+       
+
+        
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="..." class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="..." class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="..." class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+      
+
+       
+       
+   
+        
+        
+
+        
+      
+      
     </main>
 
 
-    <script src="./assets/images/script.js"></script>
+   
+    
   </body>
 </html>

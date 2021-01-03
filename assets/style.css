@@ -10,14 +10,24 @@ li {
 
 
 .about-background {
+    /* background-image: url(./images/computer-closeup.jpg);
+    background-size: 75% 100%;
+    background-repeat: no-repeat; */
     background-color: grey;
+    
 }
 .skills-background {
     background-color: lightgrey;
 }
  
+.card-custom {
+    width: 220px;
+    
+}
 
-
+.card {
+    display: inline-block;
+}
 /* about page */
 #profile-pic {
     height: 250px;
