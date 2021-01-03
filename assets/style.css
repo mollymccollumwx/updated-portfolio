@@ -3,6 +3,12 @@ body {
     font-family: 'Source Sans Pro', sans-serif;   
 }
 
+li {
+    list-style-type: none;
+}
+
+
+
 .about-background {
     background-color: grey;
 }
