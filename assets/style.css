@@ -1,33 +1,54 @@
 
 body {
-    font-family: 'Source Sans Pro', sans-serif;   
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: lightgrey;   
+    
 }
 
 li {
     list-style-type: none;
 }
 
+i {
+    color: #5cb85c;
+}
 
+h6{
+    color: grey;
+    font-weight: bolder;
+}
+
+h4 {
+   text-align: center; 
+}
+
+.bar {
+    color: #5cb85c;
+    font-weight: bolder;
+}
 
 .about-background {
-    /* background-image: url(./images/computer-closeup.jpg);
-    background-size: 75% 100%;
-    background-repeat: no-repeat; */
-    background-color: grey;
-    
+    background-color: rgb(33,37,41);
+    color: white;
+    border-bottom: solid;  
 }
+
 .skills-background {
     background-color: lightgrey;
 }
  
 .card-custom {
-    width: 220px;
-    
+    width: 220px;   
 }
 
 .card {
     display: inline-block;
 }
+.card-img {
+    width: 200px;
+    height: 180px;
+}
+
 /* about page */
 #profile-pic {
     height: 250px;
