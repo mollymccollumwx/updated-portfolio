@@ -10,7 +10,7 @@ li {
 }
 
 i {
-    color: #5cb85c;
+    color: rgb(25, 125, 84);
 }
 
 h6{
@@ -23,7 +23,7 @@ h4 {
 }
 
 .bar {
-    color: #5cb85c;
+    color: rgb(25, 125, 84);
     font-weight: bolder;
 }
 
@@ -50,7 +50,7 @@ h4 {
 }
 
 .name-header {
-    color: #5cb85c;
+    color: rgb(25, 125, 84);
 }
 
 /* about page */
