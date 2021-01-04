@@ -1,4 +1,5 @@
-
+/* element selectors */
+/* google font and body background */
 body {
     font-family: 'Source Sans Pro', sans-serif;
     background-color: lightgrey;   
@@ -21,7 +22,7 @@ h6{
 h4 {
    text-align: center; 
 }
-
+/* class selectors */
 .bar {
     color: rgb(25, 125, 84);
     font-weight: bolder;
@@ -53,7 +54,7 @@ h4 {
     color: rgb(25, 125, 84);
 }
 
-/* about page */
+/* ID selectors */
 #profile-pic {
     height: 250px;
     width: 250px;
